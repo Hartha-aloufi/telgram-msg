@@ -5,11 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pull-messages": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "csv-parse": "^5.5.6",
+    "csv-writer": "^1.6.0",
     "puppeteer": "^22.9.0"
   }
 }
